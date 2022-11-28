@@ -9,7 +9,7 @@ function updateBodyBGcolor(color) {
 }
 
 class ColorSwitcher {
-  constructor(updateBodyBGcolor) {
+  constructor() {
     this.intervalID = null;
     this.isActive = false;
     this.updateBodyBGcolor = updateBodyBGcolor;
